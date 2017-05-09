@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/Montserrat-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/ProximaNova-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/ProximaNova-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-style: bold;
+    font-weight: 700;
+    src: url(../fonts/ProximaNova-Bold.otf) format('opentype');
+}
+
+* {
+    font-family: Proxima Nova;
+}
+
+.button, body, button, h1, h1.title, h2, h3, h4, h5, h6 {
+    font-family: Proxima Nova;
+}
+
+.button.unoj {
+    background-color: #1c86f2;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.button.unoj:hover {
+    transition: 0.2s;
+    background-color: rgba(20, 71, 185, .75);
+}
+
+.form-item {
+    margin-bottom: 1rem;
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 8%;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top:0;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: solid 1px #d6d6d6;
+    background-color: #fff;
+    vertical-align: middle;
+    z-index: 100;
+}
+
+.nav-item {
+    padding: 0 0.75rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    transition: 0.2s;
+}
+
+.nav-item:hover {
+    background-color: rgba(0,0,0,0.04);
+    transition: 0.2s;
+    color: #1c86f2;
+}
+
+#footer{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #eee;
+}
+
+#footer-bottom {
+    width: 100%;
+    padding: 0.5rem 0;
+    color: #fff;
+    text-align: center;
+    background-color: #1c86f2;
+}
+
+
+
+
+
+
+#headline {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 4rem 0;
+    border-bottom: solid 1px #d6d6d6;
+    margin-bottom: 3rem;
+    color: #fff;
+    background-color: #1c86f2;
+}
