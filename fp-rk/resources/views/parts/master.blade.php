@@ -3,6 +3,7 @@
         <link rel="stylesheet" type="text/css" href="{{url('css/kube.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{url('css/font-awesome.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{url('css/unoj.css')}}">
+        <link rel="icon" href="{{url('img/logo64.png')}}" type="image/png">
         <title>@yield('title') | UNOJ</title>
     </head>
     <body>
