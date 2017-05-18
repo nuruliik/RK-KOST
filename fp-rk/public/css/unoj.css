@@ -27,11 +27,15 @@
 }
 
 * {
-    font-family: Proxima Nova;
+    font-family: Corbel, sans-serif;
 }
 
-.button, body, button, h1, h1.title, h2, h3, h4, h5, h6 {
-    font-family: Proxima Nova;
+.button, body, button {
+    font-family: Corbel, sans-serif;
+}
+
+h1, h1.title, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
 }
 
 .button.unoj {
@@ -95,7 +99,7 @@ a, a:hover {
     padding: 0.5rem 0;
     color: #fff;
     text-align: center;
-    background-color: #1c86f2;
+    background-color: #383838;
 }
 
 
