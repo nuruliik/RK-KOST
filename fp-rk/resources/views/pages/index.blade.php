@@ -3,54 +3,82 @@
 @section('title', 'Ujian Nasional Online Judge')
 
 @section('content')
-<div id="headline" class="section">
-    <h1 style="margin-bottom:0; color:#fff">Jadilah Pelajar Cerdas</h1>
-    <p style="margin-bottom:0">Daftar UNOJ sekarang juga untuk kelancaran Ujian Nasionalmu nanti.</p>
-    <h4 style="margin-bottom:2rem; margin-top:0; color:#fff"><b>1730</b> Pengerjaan, <b>530</b> Pengguna, <b>73</b> Set soal</h4>
-    <button class="button white outline big"><b>Daftar dan Mulai Belajar</b></button>
+<div id="headline" class="section first">
+    <h1 style="margin-bottom:0; color:#fff">Belajar Ramai-Ramai</h1>
+    <p style="margin-bottom:0">UN Online Judge merupakan platform crowdsourcing soal-soal untuk menempuh Ujian Nasional.</p>
+    <h4 style="margin-bottom:2rem; margin-top:0; color:#fff"><b>1730x</b> Pengerjaan, <b>65</b> Guru, <b>330</b> Murid, <b>73</b> Set soal</h4>
+    <a href="login" class="button white outline big"><b>Daftar dan Mulai Belajar</b></a>
 </div>
 <div class="section">
     <div class="row container gutters">
         <div class="col col-12">
-            <h2>Jelajah Soal</h2>
-                        
+            <div class="row">
+                <div class="col col-6">
+                    <h2><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Soal Terbaru</h2>
+                </div>
+                <div class="col col-6">
+                    <a href="soal" class="button primary pull-right"><i class="fa fa-cube" aria-hidden="true"></i> Liat Semua Soal</a>
+                </div>
+            </div>
             <div class="row gutters">
                 <div class="col col-2">
-                    <ul class="unstyled soalOption">
-                        <li><a href="#soalSMA" data-component="toggleme" data-target="#soalSMA" style="font-size:1.2em; font-weight:bold">SMA <span class="caret down"></span></a></li>
-                        <ul id="soalSMA" class="open unstyled">
-                            <li><a href="#!">B. Indonesia</a></li>
-                            <li><a href="#!">B. Inggris</a></li>
-                            <li><a href="#!">Matematika</a></li>
-                            <li><a href="#!">Fisika</a></li>
-                            <li><a href="#!">Biologi</a></li>
-                            <li><a href="#!">Kimia</a></li>
-                        </ul>
-                        <li><a href="#soalSMP" data-component="toggleme" data-target="#soalSMP" style="font-size:1.2em; font-weight:bold">SMP <span class="caret down"></span></a></li>
-                        <ul id="soalSMP" class="hide unstyled">
-                            <li><a href="#!">B. Indonesia</a></li>
-                            <li><a href="#!">B. Inggris</a></li>
-                            <li><a href="#!">Matematika</a></li>
-                            <li><a href="#!">IPA</a></li>
-                        </ul>
-                        <li><a href="#soalSD" data-component="toggleme" data-target="#soalSD" style="font-size:1.2em; font-weight:bold">SD <span class="caret down"></span></a></li>
-                        <ul id="soalSD" class="hide unstyled">
-                            <li><a href="#!">B. Indonesia</a></li>
-                            <li><a href="#!">Matematika</a></li>
-                            <li><a href="#!">IPA</a></li>
-                        </ul>
-                    </ul>
+                    <table>
+                        <thead>
+                            <tr style="font-weight:bold; font-size:1.2em">
+                                <td>Kategori</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <ul class="unstyled soalOption">
+                                        <li><a href="#soalSMAA" data-component="toggleme" data-target="#soalSMAA" style="font-size:1.2em; font-weight:bold">SMA (IPA) <span class="caret down"></span></a></li>
+                                        <ul id="soalSMAA" class="hide unstyled">
+                                            <li><a href="#!">B. Indonesia</a></li>
+                                            <li><a href="#!">B. Inggris</a></li>
+                                            <li><a href="#!">Matematika</a></li>
+                                            <li><a href="#!">Fisika</a></li>
+                                            <li><a href="#!">Biologi</a></li>
+                                            <li><a href="#!">Kimia</a></li>
+                                        </ul>
+                                        <li><a href="#soalSMAS" data-component="toggleme" data-target="#soalSMAS" style="font-size:1.2em; font-weight:bold">SMA (IPS) <span class="caret down"></span></a></li>
+                                        <ul id="soalSMAS" class="hide unstyled">
+                                            <li><a href="#!">B. Indonesia</a></li>
+                                            <li><a href="#!">B. Inggris</a></li>
+                                            <li><a href="#!">Matematika</a></li>
+                                            <li><a href="#!">Fisika</a></li>
+                                            <li><a href="#!">Biologi</a></li>
+                                            <li><a href="#!">Kimia</a></li>
+                                        </ul>
+                                        <li><a href="#soalSMP" data-component="toggleme" data-target="#soalSMP" style="font-size:1.2em; font-weight:bold">SMP <span class="caret down"></span></a></li>
+                                        <ul id="soalSMP" class="hide unstyled">
+                                            <li><a href="#!">B. Indonesia</a></li>
+                                            <li><a href="#!">B. Inggris</a></li>
+                                            <li><a href="#!">Matematika</a></li>
+                                            <li><a href="#!">IPA</a></li>
+                                        </ul>
+                                        <li><a href="#soalSD" data-component="toggleme" data-target="#soalSD" style="font-size:1.2em; font-weight:bold">SD <span class="caret down"></span></a></li>
+                                        <ul id="soalSD" class="hide unstyled">
+                                            <li><a href="#!">B. Indonesia</a></li>
+                                            <li><a href="#!">Matematika</a></li>
+                                            <li><a href="#!">IPA</a></li>
+                                        </ul>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="col col-8">
+                <div class="col col-10">
                     <table>
                         <thead>
                             <tr style="font-weight:bold; font-size:1.2em">
                                 <td>Nama Soal</td>
                                 <td>Mata Pelajaran</td>
                                 <td>Jenjang</td>
-                                <td>Uploader</td>
+                                <td>Pengunggah</td>
                                 <td>Pengerjaan</td>
-                                <td>Kesuksesan</td>
+                                <td>% Sukses</td>
                                 <td></td>
                             </tr>
                         </thead>
@@ -58,7 +86,7 @@
                             @for($j=0;$j<5;$j++)
                             <tr>
                                 <td>Ujian Nasional 2016</td>
-                                <td>IPA</td>
+                                <td>Ilmu Pengetahuan Alam</td>
                                 <td>SMP</td>
                                 <td>ersaldyraisha</td>
                                 <td>21x</td>
@@ -79,7 +107,7 @@
 <div class="section">
     <div class="row container gutters">
         <div class="col col-6">
-            <h2>Ranking</h2>
+            <h2><i class="fa fa-trophy" aria-hidden="true"></i> Peringkat</h2>
             <table>
                 <thead>
                     <tr>

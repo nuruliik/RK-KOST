@@ -36,5 +36,5 @@
     </div>
 </div>
 <div id="footer-bottom">
-    <b>RK C | 2017</b>
+    <b>Rekayasa Kebutuhan C - 2017</b>
 </div>

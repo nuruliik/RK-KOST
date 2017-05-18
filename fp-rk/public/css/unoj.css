@@ -36,6 +36,7 @@
 
 h1, h1.title, h2, h3, h4, h5, h6 {
     font-family: Montserrat;
+    color: #1c86f2;
 }
 
 .button.white.outline {
@@ -133,14 +134,15 @@ pre, td, th {
 }
 
 .soalOption > ul > li {
-    //padding: 0.25rem 0;
-    margin-left: 1.5rem;
-    //border-bottom: solid 1px #d6d6d6;
+    margin-left: 1rem;
 }
 
-.soalOption > li:last-child {
-    border: none;
+.soalOption {
+    //text-align: left;
+    //padding-top: 3rem;
 }
+
+
 
 #livetabs a {
     color: #000;
@@ -163,11 +165,45 @@ pre, td, th {
     margin-right: 0.5rem;
 }
 
-#headline {
+.section.first {
     margin-top: 4rem;
+}
+
+.panel{
+    border: solid 1px #d6d6d6;
+    padding: 1rem;
+}
+
+#spinner {
+    position: fixed;
+    height: 100vh;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: calc(50vh - 5rem);
+}
+
+.counter {
+    background: #fff;
+    color: #1c86f2;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+#headline {
     text-align: center;
     padding: 4rem 0;
-    //margin-bottom: 3rem;
     color: #fff;
-    background-color: #1c86f2;
+    //background-color: #1c86f2;
+    background-image: url(../img/pelajar.jpg);
+    //background-position: center;
+    background-size: cover;
+}
+
+#soalHeader {
+    //background-color: #1c86f2;
+    background-image: url(../img/ujian.jpg);
+    background-position:bottom;
+    background-size: cover;
+    padding: 3rem 0 1.5rem 0;
 }
