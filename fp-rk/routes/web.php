@@ -22,3 +22,11 @@ Route::get('/login', function () {
 Route::get('/soal', function () {
     return view('pages.listSoal');
 });
+
+Route::get('/peringkat', function () {
+    return view('pages.peringkat');
+});
+
+Route::get('/profil', function () {
+    return view('pages.profil');
+});

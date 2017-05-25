@@ -207,3 +207,10 @@ pre, td, th {
     background-size: cover;
     padding: 3rem 0 1.5rem 0;
 }
+
+#peringkatHeader {
+    background-image: url(../img/peringkat.jpg);
+    background-position:middle;
+    background-size: cover;
+    padding: 3rem 0 1.5rem 0;
+}

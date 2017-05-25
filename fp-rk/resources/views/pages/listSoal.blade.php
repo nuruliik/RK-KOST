@@ -97,9 +97,5 @@
 @endsection
 
 @section('pagescript')
-<script>
-    $(document).ready(function(){
-        
-    });
-</script>
+
 @endsection

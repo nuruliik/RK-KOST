@@ -17,7 +17,7 @@
                     <h2><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Soal Terbaru</h2>
                 </div>
                 <div class="col col-6">
-                    <a href="soal" class="button primary pull-right"><i class="fa fa-cube" aria-hidden="true"></i> Liat Semua Soal</a>
+                    <a href="soal" class="button primary pull-right"><i class="fa fa-cube" aria-hidden="true"></i> Lihat Semua Soal</a>
                 </div>
             </div>
             <div class="row gutters">
