@@ -66,6 +66,7 @@
 </div>
 
 <div class="section container">
+    <a href="soal/create" class="button unoj big" style="margin-bottom:2rem"><i class="fa fa-file" aria-hidden="true"></i> Buat Soal</a>
     <table>
         <thead>
             <tr style="font-weight:bold; font-size:1.2em">
@@ -87,7 +88,7 @@
                 <td>ersaldyraisha</td>
                 <td>21x</td>
                 <td>61.7%</td>
-                <td><a href="#!" style="color:#1c86f2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> <b>Kerjakan</b></a></td>
+                <td><a href="soal/do" style="color:#1c86f2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> <b>Kerjakan</b></a></td>
             </tr>
             @endfor
         </tbody>
