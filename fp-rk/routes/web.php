@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('pages.index');
 });
+Route::post('/coba', 'ControllerTest@Testpost');
+Route::get('/coba', 'ControllerTest@Testview');
 
 Route::get('/login', function () {
     return view('pages.login');
