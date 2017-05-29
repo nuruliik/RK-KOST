@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('pages.index');
 });
+Route::post('/coba', 'ControllerTest@Testpost');
+Route::get('/coba', 'ControllerTest@Testview');
 
 Route::get('/login', function () {
     return view('pages.login');
@@ -21,6 +23,14 @@ Route::get('/login', function () {
 
 Route::get('/soal', function () {
     return view('pages.listSoal');
+});
+
+Route::get('/soal/create', function () {
+    return view('pages.createSoal');
+});
+
+Route::get('/soal/do', function () {
+    return view('pages.doSoal');
 });
 
 Route::get('/peringkat', function () {
