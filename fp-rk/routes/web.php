@@ -29,6 +29,10 @@ Route::get('/soal/create', function () {
     return view('pages.createSoal');
 });
 
+Route::get('/soal/comment', function () {
+    return view('pages.commentSoal');
+});
+
 Route::get('/soal/do', function () {
     return view('pages.doSoal');
 });
