@@ -40,26 +40,52 @@
             </div>
         </div>
         <div class="col col-5">
-            <h3>Soal yang Pernah Dikerjakan</h3>
-            <hr>
-            <table class="unstyled">
-                <thead>
-                    <tr>
-                        <th>Nama Soal</th>
-                        <th>Mata Pelajaran</th>
-                        <th>Nilai</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @for($i=0;$i<10;$i++)
-                    <tr>
-                        <td>Ujian Nasional 2017</td>
-                        <td>Kimia</td>
-                        <td>85</td>
-                    </tr>
-                    @endfor
-                </tbody>
-            </table>
+            <div class="row">
+                <div class="col col-12">
+                    <h3>Soal yang Pernah Dikerjakan</h3>
+                    <hr>
+                    <table class="unstyled">
+                        <thead>
+                            <tr>
+                                <th>Nama Soal</th>
+                                <th>Mata Pelajaran</th>
+                                <th>Nilai</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for($i=0;$i<5;$i++)
+                            <tr>
+                                <td>Ujian Nasional 2017</td>
+                                <td>Kimia</td>
+                                <td>85</td>
+                            </tr>
+                            @endfor
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col col-12">
+                    <h3>Soal yang Pernah dibuat</h3>
+                    <hr>
+                    <table class="unstyled">
+                        <thead>
+                            <tr>
+                                <th>Nama Soal</th>
+                                <th>Mata Pelajaran</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for($i=0;$i<5;$i++)
+                            <tr>
+                                <td>Ujian Nasional 2017</td>
+                                <td>Kimia</td>
+                                <td><b><a href="{{url('')}}/soal/edit"><i class="fa fa-edit"></i> Edit <a href="#!" style="margin-left:1rem"><i class="fa fa-trash"></i> Hapus</a></a></td>
+                            </tr>
+                            @endfor
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </div>
