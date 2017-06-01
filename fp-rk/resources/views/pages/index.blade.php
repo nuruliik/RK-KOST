@@ -83,7 +83,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @for($j=0;$j<8;$j++)
+                            @for($j=0;$j<2;$j++)
                             <tr>
                                 <td>Ujian Nasional 2016</td>
                                 <td>Ilmu Pengetahuan Alam</td>
@@ -91,7 +91,18 @@
                                 <td>ersaldyraisha</td>
                                 <td>21x</td>
                                 <td>61.7%</td>
-                                <td><a href="soal/do" style="color:#1c86f2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> <b>Kerjakan</b></a></td>
+                                <td><span style="color:green"><i class="fa fa-check" aria-hidden="true"></i> <b>Sudah dikerjakan</b></span> <a href="{{url('')}}/soal/comment" style="color:green; float:right"><i class="fa fa-comments"></i><b>56</b></a></td>
+                            </tr>
+                            @endfor
+                            @for($j=0;$j<6;$j++)
+                            <tr>
+                                <td>Ujian Nasional 2016</td>
+                                <td>Ilmu Pengetahuan Alam</td>
+                                <td>SMP</td>
+                                <td>ersaldyraisha</td>
+                                <td>21x</td>
+                                <td>61.7%</td>
+                                <td><a href="{{url('')}}/soal/do" style="color:#1c86f2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> <b>Mulai Kerjakan</b></a> <a href="#!" style="color:rgba(181, 181, 181, 0.6); float:right; cursor:no-drop"><i class="fa fa-comments"></i><b>56</b></a></td>
                             </tr>
                             @endfor
                         </tbody>
